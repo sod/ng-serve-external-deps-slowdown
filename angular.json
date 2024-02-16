@@ -57,28 +57,24 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "optimization": false,
+            "extractLicenses": false,
+            "sourceMap": true
           },
           "configurations": {
             "production": {
-              "budgets": [
-                {
-                  "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
-                },
-                {
-                  "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
-                }
-              ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "optimization": true,
+              "extractLicenses": true,
+              "sourceMap": false
             },
             "development": {
-              "optimization": false,
-              "extractLicenses": false,
-              "sourceMap": true
+            },
+            "development-slow": {
+              "loader": {
+                ".webp": "file"
+              }
             }
           },
           "defaultConfiguration": "production"
@@ -91,6 +87,9 @@
             },
             "development": {
               "buildTarget": "ng-serve-external-deps-slowdown:build:development"
+            },
+            "development-slow": {
+              "buildTarget": "ng-serve-external-deps-slowdown:build:development-slow"
             }
           },
           "defaultConfiguration": "development"
