@@ -1,0 +1,16 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-lorem-0197',
+  standalone: true,
+  imports: [],
+  template: `
+    <p>
+      lorem-0197 works!
+    </p>
+  `,
+  styles: ``
+})
+export class Lorem0197Component {
+
+}
