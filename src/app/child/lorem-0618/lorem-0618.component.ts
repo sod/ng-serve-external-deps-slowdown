@@ -1,15 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-lorem-0618',
-  standalone: true,
-  imports: [],
-  template: `
+    selector: 'app-lorem-0618',
+    imports: [],
+    template: `
     <p>
       lorem-0618 works!
     </p>
   `,
-  styles: ``
+    styles: ``
 })
 export class Lorem0618Component {
 
