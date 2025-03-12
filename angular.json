@@ -73,6 +73,7 @@
             },
             "development-slow": {
               "loader": {
+                ".inline.svg": "text",
                 ".webp": "file"
               }
             }
