@@ -70,10 +70,14 @@
               "sourceMap": false
             },
             "development": {
+              "loader": {
+                ".svg": "file"
+              }
             },
             "development-slow": {
               "loader": {
                 ".inline.svg": "text",
+                ".svg": "file",
                 ".webp": "file"
               }
             }

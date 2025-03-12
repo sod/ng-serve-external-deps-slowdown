@@ -1824,6 +1824,7 @@ import {Lorem0793Component} from './child/lorem-0793/lorem-0793.component';
         Lorem0793Component,],
     template: `
     <h1>Welcome to {{title}}!</h1>
+    <app-lorem-0001 />
     <app-lorem-0970 />
     <app-lorem-0528 />
     <app-lorem-0984 />
@@ -1972,7 +1973,6 @@ import {Lorem0793Component} from './child/lorem-0793/lorem-0793.component';
     <app-lorem-0211 />
     <app-lorem-0491 />
     <app-lorem-0233 />
-    <app-lorem-0001 />
     <app-lorem-0598 />
     <app-lorem-0108 />
     <app-lorem-0934 />
